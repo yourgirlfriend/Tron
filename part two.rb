@@ -21,7 +21,7 @@ class GameWindow < Gosu::Window
   def update
     if Time.new - @timer > 5
 	  close
-	  require './controls.rb' 
+	  require './game run.rb' 
 	end
   end
   
